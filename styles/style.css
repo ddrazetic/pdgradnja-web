@@ -1,0 +1,379 @@
+*{
+    margin: 0px;
+    padding: 0px;
+      
+}
+
+
+/*header*/
+
+header{
+    width: 100%;
+    min-height: 200px;
+    color: whitesmoke;
+    background-color:#D2D2D2;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    overflow:hidden;
+}
+
+header h1{
+    font-size: 95px;
+    text-decoration: none;
+    color:  rgb(201, 50, 50);
+    
+    font-weight: bolder;
+}
+
+header h4{
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(201, 73, 73);
+    font-weight:bolder;
+    margin-right: 7%;
+    text-align: right;
+    font-style: italic;
+   
+}
+
+header p{
+    color: black;
+    font-size: 20px;
+}
+
+/*navigacijska traka*/
+
+nav{
+    background-color: #DCDBDB;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    height: auto;
+    width: 99%;
+    border-width: 2px;
+    border-color: #A29999;
+    border-style: solid;
+    text-align: left;
+    
+}
+
+nav li{
+    display: inline;
+    margin-left: 140px;
+}
+
+nav li a{
+    color:#2E2C2C;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: lighter;
+    overflow:hidden; 
+}
+
+nav .current a{
+    color: rgb(201, 73, 73);
+}
+
+nav li a:hover{
+    opacity: 0.5;
+}
+
+/*welcome picture*/
+
+.container {
+  
+    height: 700px;
+    background: url("../images/nacrt3.jpeg")no-repeat 0 ;
+    background-size: 100% 100%;
+
+
+    color : rgb(201, 73, 73);
+    overflow:hidden;
+}
+
+
+.container h1 {
+    font-size: 50px;
+    text-decoration: none;
+    color:  rgb(233, 233, 233);
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 14%;
+
+}
+.container h2 {
+    font-size: 40px;
+    text-decoration: none;
+    color:  rgb(233, 233, 233);
+    font-weight: lighter;
+    text-transform: uppercase;
+
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.image-container {
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+
+/*recenica*/
+
+.news-title{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    height:80px;
+    background-color: whitesmoke;
+    color:  rgb(201, 73, 73);
+    padding-top:40px;
+    width: 100%;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-color: #A29999;
+    border-style: solid;
+
+}
+
+/*articles*/
+
+
+.article-container{
+    width: 100%;
+    min-height: 300px;
+    background-color: rgb(235, 235, 235);
+    display:flex;
+    flex-direction: row;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: whitesmoke;
+    overflow: hidden;
+    margin:auto;
+   
+}
+
+.a-container{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: white;
+}
+
+.a-container:hover{
+    opacity: 0.7;
+}
+
+.a-img-container{
+    flex:0.6;
+}
+
+.a-img-container img{
+   margin-top: 40px;
+   margin-left: 45%;
+   
+}
+
+.a-text-containter{
+    flex:1;
+    text-align: center;
+}
+
+.a-text-containter h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(201, 73, 73);
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.a-text-containter p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 12px;
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(44, 44, 44);
+
+}
+
+/*footer*/
+
+footer{
+    width: 100%;
+    min-height: 110px;
+    background-color: rgb(145, 144, 144);
+}
+
+.google-container{
+    padding-top: 15px;
+    width: 105px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.google-logo {
+    flex:1;
+}
+ 
+.maps-logo {
+    flex:1;
+}
+
+.google-logo img{
+    max-width: 100%;
+    height: 45px;
+    float: left;
+    border-radius: 20px;
+    border: 3px solid rgb(190, 176, 42);
+}
+ 
+.maps-logo img{
+    max-width: 100%;
+    height: 45px;
+    float: left;
+    border-radius: 20px;
+    border: 3px solid rgb(39, 46, 148);
+}
+
+.maps-logo :hover{
+    opacity: 0.5;
+}
+
+.google-logo :hover{
+    opacity: 0.5;
+}
+
+.copyright-text{
+    width: 100%;
+    height: 12px;
+    text-align: center;
+    padding-top: 24px;
+    
+}
+
+
+/*newsletter*/
+
+
+.newsletter{
+    padding : 15px;
+    background-color: rgb(177, 177, 177);
+    color : rgb(201, 73, 73);
+    min-height: 180px;
+}
+
+.newsletter h1{
+    float: left;
+    margin-top: 100px;
+}
+
+.newsletter form{
+    float: right;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.newsletter input[type="email"]{
+    padding : 4px;
+    height: 25px;
+    width: 250px;
+}
+
+.subscribe {
+    width : 95%;
+    margin : auto;
+    overflow:hidden; 
+    
+    
+}
+
+/*o nama*/
+
+.about-container{
+    width: 100%;
+    min-height: 600px;
+    display:flex;
+    flex-direction: row;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: lightslategrey;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: lightslategrey;
+}
+
+.onama-img-container{
+    background-image: url(../images/nacrt2.jpeg);
+    background-size: cover;
+    background-position: center;
+    flex:1;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: lightslategrey;
+    
+    
+
+}
+
+.onama-text-container{
+    background-color: rgb(214, 214, 214);
+    flex:1;
+    color: rgb(126, 63, 63);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.onama-text-container p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+
+/*galerija*/
+
+.kontejner > div {
+    
+    /*border-radius: 20px;*/
+    margin: 20px;
+    /*background-color: rgb(180, 180, 180);*/
+    border: 6px solid white;
+    box-shadow: 0 0 22px rgba(0, 0, 0, .5);
+    overflow: hidden;
+    
+   }
+
+.kontejner > div img {
+    width: 100%;
+    /*filter: grayscale(100%);*/
+}
+.kontejner> div img:hover{
+    opacity: 0.7;
+   /* transform: scale(1.1);*/
+    /*border: 6px solid white;*/
+    /*z-index: 10;*/
+   /* filter: grayscale(0%);*/
+   
+}
+
+.kontejner {
+    background-color: rgb(219, 219, 219);
+    border-top: 2px solid rgb(182, 80, 80);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+   
+   }
+
+
+
+
+  
